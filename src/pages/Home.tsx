@@ -161,13 +161,11 @@ export default function Home() {
             <div className="p-5 sm:p-8 md:p-12 lg:p-14">
               <div className="space-y-4 md:space-y-6 text-slate-400 text-sm sm:text-base md:text-lg leading-relaxed md:leading-loose max-w-5xl">
                 <p>
-                  I'm a Computer Science graduate with a strong university foundation in software engineering, algorithms and 
+                  I'm a Computer engineer graduate with a strong university foundation in software engineering, algorithms and 
                   distributed systems. During my studies I specialized in modern web development, focusing on <span className="text-cyan-400 font-medium">React</span> and <span className="text-cyan-400 font-medium">Node.js</span>, and led several academic projects around machine learning and AI integration.
                 </p>
                 <p>
-                  Today I design and ship full-stack products that combine clean architecture with AI-powered features — from 
-                  LLM-driven assistants to intelligent automation pipelines — always with an obsession for detail, performance 
-                  and great user experience.
+                  Today I bring 2 years of experience to designing and shipping full-stack products that combine clean architecture with AI-powered features — from intelligent automation pipelines to high-performance systems — always with an obsession for detail, performance, and great user experience.
                 </p>
               </div>
               
