@@ -90,7 +90,7 @@ export default function Home() {
                   <div className="absolute inset-0 border border-cyan-500/30 rounded-xl pointer-events-none"></div>
               </div>
               <div className="text-[9px] md:text-[10px] text-cyan-500 tracking-[0.2em] text-center font-mono mt-2 md:mt-3 mb-1 uppercase font-semibold opacity-80">
-                Dev Badge - 2026
+                Computer Engineer - 2026
               </div>
             </div>
           </div>
