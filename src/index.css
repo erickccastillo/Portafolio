@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #030712; /* Fondo súper oscuro */
+  color: white;
+}
+
+/* Animación del gafete colgando */
+@keyframes swing {
+  0% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+.animate-swing {
+  transform-origin: top center;
+  animation: swing 4s ease-in-out infinite;
+}
+
+/* Animación del humo atmosférico */
+@keyframes smoke {
+  0% { transform: translateY(0) scale(1) opacity(0.1); }
+  50% { transform: translateY(-20px) scale(1.1); opacity: 0.2; }
+  100% { transform: translateY(0) scale(1) opacity(0.1); }
+}
+
+.smoke-bg {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60vw;
+  height: 60vh;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+  filter: blur(60px);
+  z-index: 0;
+  pointer-events: none;
+  animation: smoke 8s infinite alternate ease-in-out;
+}
