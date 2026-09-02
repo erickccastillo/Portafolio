@@ -113,18 +113,36 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 px-4 w-full sm:w-auto">
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-cyan-400 hover:bg-cyan-300 text-slate-950 px-6 py-3 md:py-3.5 rounded-full font-bold transition-colors duration-200 text-sm md:text-base shadow-lg shadow-cyan-500/20">
+              {/* Botón de LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/erick-alexander-castillo-chavez-987121426"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-cyan-400 hover:bg-cyan-300 text-slate-950 px-6 py-3 md:py-3.5 rounded-full font-bold transition-colors duration-200 text-sm md:text-base shadow-lg shadow-cyan-500/20"
+              >
                 <span className="font-extrabold">in</span>
                 LinkedIn
-              </button>
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#0f1623] border border-slate-700 hover:border-slate-500 text-white px-6 py-3 md:py-3.5 rounded-full font-medium transition-all duration-200 text-sm md:text-base">
+              </a>
+
+              {/* Botón de WhatsApp */}
+              <a
+                href="https://wa.me/523328317497?text=Hi,%20I'm%20interested."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#0f1623] border border-slate-700 hover:border-slate-500 text-white px-6 py-3 md:py-3.5 rounded-full font-medium transition-all duration-200 text-sm md:text-base"
+              >
                 <MessageCircle size={18} className="md:w-[20px] md:h-[20px]" />
                 WhatsApp
-              </button>
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#0f1623] border border-slate-700 hover:border-slate-500 text-white px-6 py-3 md:py-3.5 rounded-full font-medium transition-all duration-200 text-sm md:text-base">
+              </a>
+
+              {/* Botón de Email */}
+              <a
+                href="mailto:erick.castillodesign@example.com?subject=Contacto%20desde%20tu%20web"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#0f1623] border border-slate-700 hover:border-slate-500 text-white px-6 py-3 md:py-3.5 rounded-full font-medium transition-all duration-200 text-sm md:text-base"
+              >
                 <Mail size={18} className="md:w-[20px] md:h-[20px]" />
                 Email
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -246,9 +264,7 @@ export default function Home() {
               © 2026 Erick Alexander Castillo Chavez. All rights reserved.
             </p>
             <div className="flex items-center justify-center gap-6 text-slate-500 font-bold text-sm md:text-base">
-              <a href="#" className="hover:text-cyan-400 transition-colors">GH</a>
-              <a href="#" className="hover:text-cyan-400 transition-colors">IN</a>
-              <a href="#" className="hover:text-cyan-400 transition-colors">@</a>
+              <a href="https://github.com/erickccastillo" className="hover:text-cyan-400 transition-colors">GH</a>
             </div>
           </div>
         </footer>
