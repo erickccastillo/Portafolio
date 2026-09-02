@@ -78,22 +78,22 @@ export default function Home() {
         {/* --- SECCIÓN HERO --- */}
         <section className="relative flex flex-col items-center justify-center min-h-[90vh] pt-20 pb-16 px-4 sm:px-6 w-full max-w-[1400px]">
           
-          <div className="flex flex-col items-center mb-8 md:mb-12 animate-swing">
-            <div className="w-[1px] h-12 md:h-16 bg-gradient-to-b from-transparent to-cyan-500/50"></div>
-            <div className="relative bg-[#0d1421] border border-cyan-900/40 rounded-2xl p-2 md:p-3 shadow-[0_0_40px_rgba(6,182,212,0.1)] backdrop-blur-md">
-              <div className="w-24 h-28 sm:w-28 sm:h-32 md:w-32 md:h-36 rounded-xl overflow-hidden bg-slate-800 relative group">
-                <img 
-                  src={miFoto} 
-                  alt="Erick Alexander Castillo" 
-                  className="w-full h-full object-cover"
-                />
-                  <div className="absolute inset-0 border border-cyan-500/30 rounded-xl pointer-events-none"></div>
-              </div>
-              <div className="text-[9px] md:text-[10px] text-cyan-500 tracking-[0.2em] text-center font-mono mt-2 md:mt-3 mb-1 uppercase font-semibold opacity-80">
-                Computer Engineer - 2026
-              </div>
-            </div>
-          </div>
+          <div className="flex flex-col items-center mb-8 md:mb-12 animate-swing origin-top">
+  <div className="w-[1px] h-12 md:h-16 bg-gradient-to-b from-transparent to-cyan-500/50"></div>
+  <div className="relative bg-[#0d1421] border border-cyan-900/40 rounded-2xl p-2 md:p-3 shadow-[0_0_40px_rgba(6,182,212,0.1)] backdrop-blur-md flex flex-col items-center">
+    <div className="w-24 h-28 sm:w-28 sm:h-32 md:w-32 md:h-36 rounded-xl overflow-hidden bg-slate-800 relative group">
+      <img 
+        src={miFoto} 
+        alt="Erick Alexander Castillo" 
+        className="w-full h-full object-cover object-center"
+      />
+      <div className="absolute inset-0 border border-cyan-500/30 rounded-xl pointer-events-none"></div>
+    </div>
+    <div className="text-[9px] md:text-[10px] text-cyan-500 tracking-[0.2em] text-center font-mono mt-2 md:mt-3 mb-1 uppercase font-semibold opacity-80">
+      Computer Engineer - 2026
+    </div>
+  </div>
+</div>
 
           <div className="text-center w-full">
             <p className="text-cyan-500 text-xs sm:text-sm md:text-base tracking-[0.2em] md:tracking-[0.25em] font-medium uppercase mb-3 md:mb-4">
