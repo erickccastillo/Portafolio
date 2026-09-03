@@ -23,7 +23,7 @@ const NotFound: React.FC = () => {
 
         {/* Título en inglés */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-cyan-400 mb-4 tracking-tight">
-          Page Not Found
+          Page Not Found :(
         </h2>
 
         {/* Descripción en inglés */}
